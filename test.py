@@ -1,4 +1,17 @@
-tab = [1,2,3,4,5,6,7,8,9,10]
-a= tab[-1:0]
+import datetime
+start_date = "14/10/22"
+date_1 = datetime.datetime.strptime(start_date, "%d/%m/%y")
 
-print(a)
+end_date = date_1 + datetime.timedelta(days=11)
+
+def nextDayInputDate(endDate):
+
+    end_nextDay = datetime.datetime.strptime(endDate, "%d/%m/%y")
+    
+    end_nextDay += datetime.timedelta(days=1)
+
+    end_nextDay = str(end_nextDay.date())
+    
+    return end_nextDay
+
+print(type(nextDayInputDate(start_date)))
