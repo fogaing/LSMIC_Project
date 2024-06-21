@@ -41,9 +41,6 @@ end_date = "01/10/23"    # End date for historical data
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 - The project was inspired by various tutorials and research papers on LSTM and stock price prediction.
 - Special thanks to the open-source community for providing invaluable resources and tools.
