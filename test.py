@@ -14,4 +14,4 @@ def nextDayInputDate(endDate):
     
     return end_nextDay
 
-print(type(nextDayInputDate(start_date)))
+print(nextDayInputDate(start_date))
